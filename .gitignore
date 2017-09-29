@@ -1,0 +1,6 @@
+/bootstrap/compiled.php
+/vendor
+/app/config/local
+composer.phar
+.DS_Store
+Thumbs.db

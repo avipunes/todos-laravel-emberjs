@@ -1,0 +1,99 @@
+.app-header{ text-align: center; }
+.dn{display: none;}
+
+.db{display: block;}
+
+
+table {
+    width: 500px;
+    direction: rtl;
+}
+th {
+    display: inline-block;
+    background: #da880e;
+    background: -webkit-linear-gradient(#ffca87, #da880e);
+    background: -o-linear-gradient(#ffca87, #da880e);
+    background: -moz-linear-gradient(#ffca87, #da880e);
+    background: linear-gradient(#ffca87, #da880e);
+    box-shadow: 0px 4px 7px 0px #888888;
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #F3F6E3;
+}
+.title {
+    float: right;
+    margin-right: 1em;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.btnWarp {
+    float: left;
+    width: 30px;
+    height: 20px;
+    padding: 7px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #F0F0EF;
+    background: -webkit-linear-gradient(#F0F0EF, #c1c0c0);
+    background: -o-linear-gradient(#F0F0EF, #c1c0c0);
+    background: -moz-linear-gradient(#F0F0EF, #c1c0c0);
+    background: linear-gradient(#F0F0EF, #c1c0c0);
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+.myBtn {
+    width: 18px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+td.not, td.completed {
+    border-bottom: 1px solid;
+    height: 2.5em;
+}
+
+input { display: none;}
+.isCompleted {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+}
+
+.completed .isCompleted {
+    background-color: gray!important;
+}
+.not .isCompleted {
+    background-color: #F0F0F0;
+}
+
+.content {
+    display: inline-block;
+}
+.completed .content {
+    text-decoration: line-through;    
+}
+.cancleMission {
+    display: inline-block;
+    float: left;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+tr.tFooter div {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+tr.tFooter {
+    background-color: #efefef;
+    border-bottom: 1px solid #9e9b9b;
+}
